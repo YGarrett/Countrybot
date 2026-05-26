@@ -1,9 +1,5 @@
 # 🏛️ CountryBot: Asistente de Investigación Histórica y Geopolítica
 
-**Asignatura:** [Nombre de la Materia, ej. Inteligencia Artificial / Programación]  
-**Carácter:** Proyecto de Investigación Estudiantil  
-**Entorno de Desarrollo:** Python 3.14+ / LangChain / Gemini API
-
 ---
 
 ## 📋 Descripción del Proyecto
