@@ -28,8 +28,21 @@ Cada consulta realizada por el agente genera de forma mandatoria un documento es
 Para replicar el entorno de ejecución de este proyecto en un ámbito local, se deben seguir rigurosamente los siguientes pasos:
 
 ### 1. Clonar el repositorio
-```bash
-git clone [https://github.com/TU_USUARIO/agente-historiador.git](https://github.com/TU_USUARIO/agente-historiador.git)
-cd agente-historiador
+
+### 2. Configurar el entorno virtual
+
+### 3. Instalación de dependencias (Requirements.txt)
+
+### 4. Configuracion de .env
+Por estrictas políticas de seguridad informática, las credenciales y llaves privadas de acceso a las APIs no han sido incluidas en este repositorio público.
+
+Para poder ejecutar el programa con éxito, el evaluador deberá proveer sus propias llaves. Cree un archivo de texto plano con el nombre exactamente igual a .env en la raíz del proyecto y configure sus credenciales bajo el siguiente formato:
+
+GOOGLE_API_KEY="SU_LLAVE_DE_GEMINI_AQUÍ"
+TAVILY_API_KEY="SU_LLAVE_DE_TAVILY_AQUÍ"
+
+### 5. Ejecute el sistema.
+Profe, le recomiendo usar el cmd en fullscreen, para que pueda leer todo el resultado, no tuve chance de hacer un deploy en web, lo iba a hacer con banderas y todo pero me agarraron las prisas :(
+
    git clone [https://github.com/TU_USUARIO/TU_REPO.git](https://github.com/TU_USUARIO/TU_REPO.git)
    cd agente-historiador
